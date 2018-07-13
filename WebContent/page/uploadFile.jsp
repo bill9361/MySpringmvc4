@@ -10,7 +10,7 @@
 	<title>文件上传</title>
 </head>
 <body>
-	<form action="" enctype="multipart/form-data">
+	<form action="upload/singleFileUpload.do" enctype="multipart/form-data">
 		<p>头像：<input type="file" name="headName"/></p>
 		<p><input type="submit" value="上传"/></p>
 	</form>

@@ -24,5 +24,13 @@
 	 	<!-- <property name="suffix" value=".jsp"/> -->
 	 	<property name="suffix" value=""/>
 	 </bean>
+	 
+	 <!-- 配置文件上传配置 -->
+	 <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+	 	<!-- 配置文件上传的编码 -->
+	 	<property name="defaultEncoding" value="utf-8"></property>
+	 	<!-- 配置文件上传的大小(单位B)1048576=1M -->
+	 	<property name="maxUploadSize" value="1048576"></property>
+	 </bean>
 
 </beans>
