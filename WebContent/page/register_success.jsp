@@ -7,12 +7,9 @@
 <head>
 	<base href="<%=basePath %>">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>文件上传</title>
+	<title>注册成功</title>
 </head>
 <body>
-	<form action="upload/singleFileUpload.do" enctype="multipart/form-data">
-		<p>头像：<input type="file" name="headName"/></p>
-		<p><input type="submit" value="上传"/></p>
-	</form>
+	<h1>注册成功</h1>
 </body>
 </html>

@@ -27,5 +27,9 @@
 		<a href="front/test13.do">测试返回Map</a>
 		<hr/>
 		<a href="front/test14.do">测试返回List&lt;Map&lt;String,Object&gt;&gt;</a>
+		<hr/>
+		<a href="page/upload_file.jsp">文件上传</a>
+		<hr/>
+		<a href="page/register.jsp">注册(数据校验)</a>
 	</body>
 </html>
