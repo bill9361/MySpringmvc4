@@ -53,5 +53,17 @@
 		<servlet-name>dispatcherServlet</servlet-name>
 		<url-pattern>*.do</url-pattern>
 	</servlet-mapping>
+	
+	<!-- 配置错误处理页面 -->
+	<error-page>
+		<error-code>404</error-code>
+		<location>/page/error/404.jsp</location>
+	</error-page>
+	
+	<!-- <error-page>
+		<error-code>500</error-code>
+		<location>/page/error/500.jsp</location>
+	</error-page>
+	 -->
 
 </web-app>
