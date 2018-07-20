@@ -85,7 +85,7 @@
 			<table>
 				<tr>
 					<td>用户名</td>
-					<td><input style="width: 300px;" type="text" name="username" placeholder="请输入3-16位数字、字母、下划线组合"><span style="color: red;">${requestScope.errorMap.username }</span></td>
+					<td><input style="width: 300px;" type="text" name="username" value="${requestScope.errorMap.username==null?requestScope.user.username:"" }" placeholder="请输入3-16位数字、字母、下划线组合"><span style="color: red;">${requestScope.errorMap.username }</span></td>
 				</tr>
 				<tr>
 					<td>昵称</td>

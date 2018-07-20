@@ -76,6 +76,7 @@ public class ValidatorController
 		{
 			//校验不通过
 			model.addAttribute("errorMap", errorMap);
+			model.addAttribute("user",user);
 			
 			return "/register.jsp";
 		}

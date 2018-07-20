@@ -30,6 +30,6 @@
 		<hr/>
 		<a href="page/upload_file.jsp">文件上传</a>
 		<hr/>
-		<a href="page/register.jsp">注册(数据校验)</a>
+		<a href="page/register.jsp">注册(数据校验&数据回显)</a>
 	</body>
 </html>
